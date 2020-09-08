@@ -5,24 +5,21 @@
 void setup()</p>
 {</p>
   // put your setup code here, to run once:</p>
-    pinMode(2,OUTPUT);</p>
-    pinMode(3,OUTPUT);</p>
-    pinMode(4,OUTPUT);</p>
-    pinMode(5,OUTPUT);</p>
+  for(int i=2;i<6;i++)</p>
+    pinMode(i,OUTPUT);</p>
+   </p>
 }</p>
-</p>
+
 void loop() {</p>
   // put your main code here, to run repeatedly:</p>
-  digitalWrite(2,HIGH);</p>
-  digitalWrite(3,HIGH);</p>
-  digitalWrite(4,HIGH);</p>
-  digitalWrite(5,HIGH);</p>
+  for(int i=2;i<6;i++)</p>
+  digitalWrite(i,HIGH);</p>
   delay(300);</p>
-  digitalWrite(2,LOW);</p>
-  digitalWrite(3,LOW);</p>
-  digitalWrite(4,LOW);</p>
-  digitalWrite(5,LOW);</p>
+</p>
+  for(int i=2;i<6;i++)</p>
+  digitalWrite(i,LOW); </p>
   delay(300);</p>
+ 
 }</p>
 
 --------------------------------------------------------------------------
